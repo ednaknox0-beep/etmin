@@ -1,0 +1,47 @@
+<div id="header" class="app-header">
+
+<div class="desktop-toggler">
+<button type="button" class="menu-toggler" data-toggle-class="app-sidebar-collapsed" data-dismiss-class="app-sidebar-toggled" data-toggle-target=".app">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</button>
+</div>
+
+
+<div class="mobile-toggler">
+<button type="button" class="menu-toggler" data-toggle-class="app-sidebar-mobile-toggled" data-toggle-target=".app">
+<span class="bar"></span>
+<span class="bar"></span>
+<span class="bar"></span>
+</button>
+</div>
+
+
+<div class="brand">
+<a href="index-2.html" class="brand-logo">
+<span class="brand-img">
+<span class="brand-img-text text-theme">GO</span>
+</span>
+<span class="brand-text">Gobot.su | Gobot.cx</span>
+</a>
+</div>
+
+
+<div class="menu">
+<div class="menu-item dropdown dropdown-mobile-full">
+<a href="#" data-bs-toggle="dropdown" data-bs-display="static" class="menu-link">
+<div class="menu-img online">
+<img src="assets/img/user/profile.jpg" alt="Profile" height="60" />
+</div>
+<div class="menu-text d-sm-block d-none">Gobot Account</div>
+					</a>
+					<div class="dropdown-menu dropdown-menu-end me-lg-3 fs-11px mt-1">
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item d-flex align-items-center" href="logout">LOGOUT <i class="bi bi-toggle-off ms-auto text-theme fs-16px my-n1"></i></a>
+</div>
+</div>
+</div>
+
+
+</div>
